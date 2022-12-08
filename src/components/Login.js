@@ -1,11 +1,29 @@
 import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./App.css"
+import {useState} from "react"
 
 
 function Login() {
   // const navigate = useNavigate();
-  function handleSubmit() {
+  const [username, setUserName] = useState['']
+  const [password, setPassword] = useState[""];
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const save = {username, password}
+    fetch("",{
+      method: 'POST',
+      headers: { 'Content-Type' : 'application/json' },
+      body: JSON.stringify(save)
+    })
+    .then((res) => res.json())
+
+    .then(() =>{
+      setUserName(' ')
+      setPassword(' ')
+
+    })
   //   navigate("/housedetails");
   // }
   return (

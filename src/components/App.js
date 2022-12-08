@@ -30,6 +30,7 @@ import Home from "./Home";
 import Login from "./Login";
 import Houses from './Houses';
 // import { BrowswerRouter, Switch, Route }from 'react-router-dom'
+import './App.css'
 
 function App() {
   return (
