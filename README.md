@@ -29,7 +29,7 @@ This projects frontend server will run on http://localhost:4000 Visit http://loc
 
 
 ## Project Technologies
-Frontend React - npm Version 8.19.1
+Frontend React - npm -Version 6.14.17
 
 
 ## Frontend repository link
@@ -40,7 +40,8 @@ https://github.com/Rlynette/Zen-Housing-frontend
 https://github.com/Rlynette/Zen-housing-backend
 
 
-## Deplyoment
+## Deployment
+
 
 
 ## Copyright & License
