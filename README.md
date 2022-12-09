@@ -19,13 +19,13 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ## Run
 `npm start` Runs the app in the development mode.
 Open http://localhost:4000 to view it in your browser. The page will reload when you make changes.
-This projects frontend server will run on http://localhost:4000 Visit http://localhost:4000 to view the projects homepage. You will be required to sign up and create an account before you can be granted access to the full application. You are allowed to create account as a trainee and as a trainer. For subsequent access, you will be required
+This projects frontend server will run on http://localhost:4000 Visit http://localhost:4000 to view the projects homepage. You will be required to sign up and create an account before you can be granted access to the full application. You are allowed to create an account when signing up. For subsequent access, you will be required to sign up,login so your details persist the next time you visit the site
 
 
 ## Project Technologies
