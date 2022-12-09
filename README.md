@@ -42,7 +42,7 @@ https://github.com/Rlynette/Zen-housing-backend
 
 ## Deployment
 Frontend vercel link
-`zen-housing-frontend.vercel.app`
+`https://zen-housing-frontend-brrq.vercel.app/`
 `
 Backend railways link
 
