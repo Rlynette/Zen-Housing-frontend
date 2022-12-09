@@ -85,13 +85,13 @@ function Home() {
             <div className="checkbox1">
               <p>
                 <span>
-                  <img src="img/check.png" />
+                  {/* <img src="img/check.png" /> */}
                   <strong> World class</strong>
                 </span>
               </p>
               <p>
                 <span>
-                  <img src="img/check.png" />
+                  {/* <img src="img/check.png" /> */}
                   <strong> Trusted</strong>
                 </span>
               </p>
@@ -99,13 +99,13 @@ function Home() {
             <div className="checkbox2">
               <p>
                 <span>
-                  <img src="img/check.png" />
+                  {/* <img src="img/check.png" /> */}
                   <strong> Affordable</strong>
                 </span>
               </p>
               <p>
                 <span>
-                  <img src="img/check.png" />
+                  {/* <img src="img/check.png" /> */}
                   <strong> Amenities</strong>
                 </span>
               </p>

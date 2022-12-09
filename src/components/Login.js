@@ -2,12 +2,14 @@ import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./App.css"
 import {useState} from "react"
+import { useHistory } from "react-router-dom";
 
 function Login({onLogin}) {
   // const navigate = useNavigate();
   const [username, setUserName] = useState('')
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState("")
+ const history = useHistory()
 
  function handleSubmit(e) {
     e.preventDefault();
@@ -21,7 +23,9 @@ function Login({onLogin}) {
       if (r.ok) {
         r.json().then((user) => {
           onLogin(user);
+          history.push("/housedetails")
         });
+
       } else {
         r.json().then((err) => {setErrors(err.errors)
         console.log(err)
