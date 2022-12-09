@@ -112,45 +112,7 @@ function Home() {
             </div>
           </div>
         </div>
-     
-        <div className="container6">
-          <div className="bungalow">
-            <img src="img/image 4.png" alt="palace" />
-            <div className="palace">
-              <h2>The Palace</h2>
-              <p>Lekki,phase2</p>
-            </div>
-            <div className="palaceprice">
-              <p>Duplex</p>
-              <p style={{ color: "#2549D3" }}>$2,000</p>
-            </div>
-          </div>
-          <div className="containerhouse1">
-            <img src="img/image 3.png" alt="IVY RORY" />
-            <div className="ivyrory">
-              <h2>IVY RORY</h2>
-              <p>Lekki,phase2</p>
-            </div>
-            <div className="ivyroryprice">
-              <p>Duplex</p>
-              <p style={{ color: "#2549D3" }}>$2,000</p>
-            </div>
-          </div>
-          <div className="containerhouse2">
-            <img src="img/image 5.png" alt="Rexona" />
-            <div className="rexona">
-              <h2>REXONA</h2>
-              <p>Lekki,phase2</p>
-            </div>
-            <div className="rexonaprice">
-              <p>Duplex</p>
-              <p style={{ color: "#2549D3" }}>$2,000</p>
-            </div>
-          </div>
-        </div>
-        <div className="viewmore">
-          <button>View more</button>
-        </div>
+
         <div className="esteemed">
           <h2>Our Esteemed Customers</h2>
           <p>This is what our client are saying</p>
