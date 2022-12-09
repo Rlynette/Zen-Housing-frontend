@@ -8,7 +8,7 @@ function Houses() {
   const [houses, setHouses] = useState([]);
 
   useEffect(() => {
-    fetch(" ")
+    fetch("/houses")
       .then((resp) => resp.json())
       .then((data) => setHouses(data));
   }, []);
@@ -23,7 +23,25 @@ function Houses() {
           most.
         </p>
       </div>
+
       <div className="container6">
+        {houses.map((house) => {
+          return(
+          <div className="bungalow">
+            <img src={house.image} alt="palace" />
+            <div className="palace">
+              <h2>{house.name}</h2>
+              <p>{house.location}</p>
+            </div>
+            <div className="palaceprice">
+              <p>Duplex</p>
+              <p style={{ color: "#2549D3" }}>{house.price}</p>
+            </div>
+          </div>
+        )})}
+      </div>
+
+      {/* <div className="container6">
         <div className="bungalow">
           <img src={image4} alt="palace" />
           <div className="palace">
@@ -57,7 +75,7 @@ function Houses() {
             <p style={{ color: "#2549D3" }}>$2,000</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="viewmore">
         <button>View more</button>
       </div>
