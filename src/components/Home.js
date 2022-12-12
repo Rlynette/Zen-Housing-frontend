@@ -157,7 +157,7 @@ function Home() {
         <div className="mainfootercontainer">
           <div className="innerfooter">
             <div className="vallieestate">
-              <h3>Vallie's Estate</h3>
+              <h3>Zen House Listings</h3>
               <p>
                 Solution for easy and flexible <br /> house hunting.You can
                 trust us <br /> anywhere through this
